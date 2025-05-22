@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import io from 'socket.io-client';
 
-const socket = io('http://192.168.233.18:3000');
+const socket = io('<ip>:3000');
 
 export default function App() {
   const [username, setUsername] = useState('');
